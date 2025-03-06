@@ -1,6 +1,7 @@
 #include <stdio.h>
 
     int main(){
+        //Variaveis e Variaveis[] array
         char estado[1], estado2[1];
         char codigo, codigo2;
         char cidade[50], cidade2[50];
@@ -9,7 +10,7 @@
         float pib, pib2;
         int turistico, turistico2;
 
-
+            //Printf para imprimir o texto e scanf para abrir o pront entrada de dados da primeira carta
             printf("Digite o Estado:\n");
             scanf(" %[^\n]", estado);
 
@@ -33,7 +34,7 @@
 
             
 
-
+            //Printf para imprimir o texto e scanf para abrir o pront entrada de dados da segunda carta
             printf("Digite o Estado:\n");
             scanf(" %[^\n]", estado2);
 
@@ -56,7 +57,7 @@
             scanf("%s", &turistico2);
 
 
-
+            //Printf para imprimir as informaçoes da primeira carta
             printf("Carta 1:\n");
             printf("Estado: %s\n", &estado);
             printf("Código: %s0%c\n",estado, codigo);
@@ -66,6 +67,7 @@
             printf("PIB: %.2f bilhões de reais\n", pib);
             printf("Numero de pontos Turisticos: %s\n", &turistico);
 
+            //Printf para imprimir as informaçoes da segunda carta
             printf("Carta 2:\n");
             printf("Estado: %s\n", &estado2);
             printf("Código: %s0%c\n",estado2, codigo2);
